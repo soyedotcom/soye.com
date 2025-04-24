@@ -1,0 +1,49 @@
+.navbar {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 1.3rem;
+
+  position: fixed;
+  z-index: 100;
+  top: 8rem;
+  right: 8rem;
+}
+
+.section-link {
+  border: 0.1rem solid transparent;
+  height: 2.9rem;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+
+  transition: border 0.25s ease, border-radius 0.25s ease;
+  cursor: pointer;
+}
+
+.section-link:after {
+  content: "";
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: yellow;
+  border-radius: 100%;
+  display: none;
+  position: absolute;
+  right: 1.5rem;
+
+  transition: display 0.25s ease;
+}
+.section-link:hover::after {
+  display: block;
+}
+
+.section-link:hover {
+  border: 0.1rem solid hsla(0, 0%, 75%, 56%);
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 1100px) {
+  .navbar {
+    display: none;
+  }
+}

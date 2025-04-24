@@ -1,0 +1,28 @@
+.code-text {
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.code-container {
+  margin-top: 4rem;
+  background-color: hsla(0, 0%, 59%, 14%);
+  border-radius: 0.25rem;
+  height: 2.9rem;
+  width: 27rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.code-container::before {
+  content: "";
+  height: 2.5rem;
+  width: 0.55rem;
+  background-color: #0095ff;
+  border-radius: 0.15rem;
+  margin: 0 0.6rem 0 0.25rem;
+}
+
+.code-highlight {
+  color: yellow;
+}
