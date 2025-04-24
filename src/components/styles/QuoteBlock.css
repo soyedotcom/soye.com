@@ -3,8 +3,7 @@
   flex-direction: column;
   gap: 0.8rem;
   align-items: center;
-
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   margin-top: 9rem;
 }
@@ -16,7 +15,6 @@
 
 .quote-year {
   font-weight: 300;
-  font-size: 1.4rem;
 }
 
 @media (max-height: 650px) {
