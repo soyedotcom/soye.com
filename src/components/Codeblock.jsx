@@ -3,8 +3,8 @@ import "./styles/Codeblock.css";
 
 const Codeblock = () => {
   const index = useRef(0);
-  const roles = ["Programmer", "Artist", "Gamer", "Creative Consumer"];
-  const [role, setrole] = useState(roles[0]);
+  const roles = ["Programmer", "Artist", "Gamer", "Student"];
+  const [role, setrole] = useState(roles[3]);
 
   useEffect(() => {
     const interval = setInterval(() => {
