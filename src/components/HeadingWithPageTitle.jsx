@@ -1,13 +1,12 @@
 import "./styles/HeadingWithPageTitle.css";
+import PropTypes from "proptypes";
 
-const HeadingWithPageTitle = () => {
+const HeadingWithPageTitle = ({ currentSect, sectTitle, subHeading }) => {
   return (
     <div className="container">
-      <h2 className="current-sect">HOME</h2>
-      <h1 className="sect-title">mind.of.soye</h1>
-      <p className="subheading">
-        Computer engineering student and jack of all trades
-      </p>
+      <h2 className="current-sect">{currentSect}</h2>
+      <h1 className="sect-title">{sectTitle}</h1>
+      <p className="subheading">{subHeading}</p>
     </div>
   );
 };
