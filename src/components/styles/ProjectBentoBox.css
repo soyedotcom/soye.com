@@ -1,12 +1,17 @@
 .project-container {
+  margin: 8rem 0;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 14rem 14rem 14rem 14rem;
+  grid-template-rows: 10rem 5rem 10rem 10rem;
   gap: 1rem;
-  grid-template-areas: "box-1 box-2 box-2 box-3";
+  grid-template-areas:
+    "box-1 box-2 box-2 box-3"
+    "box-4 box-5 box-6 box-3"
+    "box-4 box-5 box-6 box-7"
+    "box-4 box-5 box-8 box-7 ";
 }
 
 .box {
-  background-color: pink;
+  background-color: hsla(0, 0%, 85%, 17%);
   border-radius: 0.3rem;
 }
