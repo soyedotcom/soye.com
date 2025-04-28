@@ -1,6 +1,7 @@
 import AboutBlock from "./AboutBlock";
 import Codeblock from "./Codeblock";
 import HeadingWithPageTitle from "./HeadingWithPageTitle";
+import ProjectBentoBox from "./ProjectBentoBox";
 
 const Projects = () => {
   return (
@@ -21,7 +22,9 @@ const Projects = () => {
           }
         />
       </div>
-      <div></div>
+      <div>
+        <ProjectBentoBox />
+      </div>
     </main>
   );
 };
