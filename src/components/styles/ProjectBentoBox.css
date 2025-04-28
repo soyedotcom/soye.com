@@ -1,0 +1,11 @@
+.project-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 1rem;
+}
+
+.box {
+  background-color: pink;
+  border-radius: 5px;
+}
