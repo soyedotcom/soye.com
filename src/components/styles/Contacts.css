@@ -1,0 +1,7 @@
+footer {
+  display: grid;
+  max-width: 100vw;
+  height: 10rem;
+
+  background-color: hsla(0, 0%, 100%, 3%);
+}
