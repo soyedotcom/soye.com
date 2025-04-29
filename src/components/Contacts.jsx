@@ -1,5 +1,6 @@
-const Contacts = () => {
+import "./styles/Contacts.css";
 
-  return (<footer></footer>)
+const Contacts = () => {
+  return <footer></footer>;
 };
 export default Contacts;
