@@ -1,6 +1,6 @@
 import "./styles/Contacts.css";
 
 const Contacts = () => {
-  return <footer></footer>;
+  return <footer id="contacts"></footer>;
 };
 export default Contacts;

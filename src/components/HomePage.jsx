@@ -6,7 +6,7 @@ import "./styles/HomePage.css";
 
 const HomePage = () => {
   return (
-    <main className="web-section">
+    <main className="web-section" id="home">
       <div>
         <HeadingWithPageTitle
           currentSect="HOME"

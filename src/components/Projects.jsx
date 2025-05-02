@@ -5,7 +5,7 @@ import ProjectBentoBox from "./ProjectBentoBox";
 
 const Projects = () => {
   return (
-    <main className="web-section">
+    <main className="web-section" id="projects">
       <div>
         <HeadingWithPageTitle
           currentSect="PROJECTS"
