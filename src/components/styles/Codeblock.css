@@ -22,6 +22,14 @@
   margin: 0 0.6rem 0 0.25rem;
 }
 
-.code-highlight {
+#home .code-highlight {
   color: yellow;
+}
+
+#about .code-highlight {
+  color: #f90074;
+}
+
+#projects .code-highlight {
+  color: #fb00ff;
 }
