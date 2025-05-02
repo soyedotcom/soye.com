@@ -4,7 +4,7 @@ const Taskbar = () => {
   return (
     <>
       <div className="taskbar">
-        <a href="../App.jsx" className="logo">
+        <a href="/soye.com/App.jsx" className="logo">
           M.O.S
         </a>
         <hr />
