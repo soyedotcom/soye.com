@@ -1,7 +1,6 @@
 import AboutBlock from "./AboutBlock";
 import Codeblock from "./Codeblock";
 import HeadingWithPageTitle from "./HeadingWithPageTitle";
-import QuoteBlock from "./QuoteBlock";
 
 import "./styles/HomePage.css";
 
