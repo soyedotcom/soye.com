@@ -1,5 +1,4 @@
 import "./styles/HeadingWithPageTitle.css";
-import PropTypes from "proptypes";
 
 const HeadingWithPageTitle = ({ currentSect, sectTitle, subHeading }) => {
   return (

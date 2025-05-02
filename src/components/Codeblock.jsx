@@ -1,11 +1,10 @@
 import "./styles/Codeblock.css";
-import PropTypes from "proptypes";
 
 const Codeblock = ({ codeText }) => {
   return (
     <div className="code-container">
-      <p className="code-text">
-        <pre>{codeText}</pre>
+      <p>
+        <pre className="code-text">{codeText}</pre>
       </p>
     </div>
   );

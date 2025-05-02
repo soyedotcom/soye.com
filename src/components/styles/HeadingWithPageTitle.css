@@ -4,13 +4,15 @@
 }
 
 .sect-title {
-  font-size: 6rem;
-  font-size: 700;
+  font-size: 6.2rem;
+  font-weight: 600;
 }
 
 .subheading {
   font-size: 1.2rem;
-  font-weight: 500;
-  width: 34.7rem;
+  font-weight: 400;
   line-height: 2rem;
+
+  display: inline-flex;
+  max-width: 37rem;
 }
