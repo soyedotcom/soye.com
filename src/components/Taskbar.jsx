@@ -4,9 +4,19 @@ const Taskbar = () => {
   return (
     <>
       <div className="taskbar">
-        <a href="/soye.com/App.jsx" className="logo">
-          M.O.S
-        </a>
+        <div className="taskbar-sections">
+          <div>
+            <a href="/soye.com/App.jsx" className="logo">
+              M.O.S
+            </a>
+          </div>
+          <div>
+            <button className="menu-button">
+              <img src="/soye.com/menu.svg" alt="menu" />
+            </button>
+          </div>
+        </div>
+
         <hr />
       </div>
     </>

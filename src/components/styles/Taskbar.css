@@ -22,3 +22,22 @@ hr {
   right: 0;
   background-color: #1e1e1e;
 }
+
+.taskbar-sections {
+  display: flex;
+  margin: 0px 1%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-button {
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+
+@media (max-width: 68rem) {
+  .menu-button {
+    display: block;
+  }
+}
