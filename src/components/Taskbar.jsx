@@ -1,7 +1,11 @@
 import "./styles/Taskbar.css";
 
 const Taskbar = () => {
-  const showSideBar = () => {};
+  const showSideBar = () => {
+    const sidebar = document.querySelector(".navbar");
+
+    sidebar.classList.toggle("active");
+  };
   return (
     <>
       <div className="taskbar">
@@ -12,7 +16,7 @@ const Taskbar = () => {
             </a>
           </div>
           <div>
-            <button className="menu-button" onClick={showSideBar()}>
+            <button className="menu-button" onClick={showSideBar}>
               <img
                 className="menu-icon"
                 src="/soye.com/menu_2.svg"
