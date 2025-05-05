@@ -45,5 +45,25 @@
 @media (max-width: 68rem) {
   .navbar {
     display: none;
+
+    background-color: rgba(0, 0, 0, 0.114);
+    top: 2.7rem;
+    right: 0;
+    bottom: 0;
+    padding: 5rem 2rem;
+    backdrop-filter: blur(50px);
+  }
+  .section-link {
+    width: 10rem;
+  }
+  .section-link:after {
+    content: "";
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: yellow;
+    border-radius: 100%;
+    display: none;
+    position: absolute;
+    right: 3rem;
   }
 }
