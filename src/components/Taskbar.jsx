@@ -12,7 +12,11 @@ const Taskbar = () => {
           </div>
           <div>
             <button className="menu-button">
-              <img src="/soye.com/menu.svg" alt="menu" />
+              <img
+                className="menu-icon"
+                src="/soye.com/menu_2.svg"
+                alt="menu"
+              />
             </button>
           </div>
         </div>

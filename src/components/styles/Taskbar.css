@@ -12,7 +12,6 @@ hr {
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
-  padding-left: 1%;
 }
 
 .taskbar {
@@ -34,6 +33,13 @@ hr {
   border: none;
   background-color: transparent;
   display: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.menu-button img {
+  height: 2.4rem;
 }
 
 @media (max-width: 68rem) {
