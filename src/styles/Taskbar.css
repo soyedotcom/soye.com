@@ -1,6 +1,12 @@
 .taskbar {
   position: fixed;
   z-index: 99;
+
+  display: flexbox;
+  flex-direction: row;
+  width: 100vw;
+
+  border-bottom: 0.01rem solid rgb(0, 0, 0);
 }
 
 .logo {
