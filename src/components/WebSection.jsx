@@ -1,5 +1,8 @@
 import "../styles/WebSection.css";
 import "../styles/CodeBlock.css";
+import QuoteBlock from "./QuoteBlock";
+
+
 
 const WebSection = ({ currentSect, sectTitle, subHeading, codeText }) => {
   return (

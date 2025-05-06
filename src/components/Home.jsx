@@ -1,9 +1,10 @@
 import "../styles/Home.css";
+import "../styles/QuoteBlock.css";
 import WebSection from "./WebSection";
 
 const Home = () => {
   return (
-    <>
+    <main>
       <WebSection
         currentSect="Home"
         sectTitle="mind.of.soye"
@@ -16,7 +17,7 @@ const Home = () => {
           </>
         }
       />
-    </>
+    </main>
   );
 };
 export default Home;
