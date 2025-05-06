@@ -1,14 +1,21 @@
-.taskbar {
+.taskbar-container {
   position: fixed;
   z-index: 99;
+  top: 0;
+  left: 1%;
+  right: 1%;
+  padding: 0.2% 0;
+}
 
-  display: flexbox;
-  flex-direction: row;
-  width: 100vw;
-
-  border-bottom: 0.01rem solid rgb(0, 0, 0);
+.taskbar {
+  width: 100%;
+  border-bottom: 0.01rem solid #626161bb;
 }
 
 .logo {
   text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+
+  cursor: pointer;
 }
