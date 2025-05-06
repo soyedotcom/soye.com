@@ -1,3 +1,5 @@
+import "../src/App.css";
+
 import Taskbar from "./components/Taskbar";
 import Home from "./components/Home";
 
@@ -5,7 +7,11 @@ function App() {
   return (
     <>
       <Taskbar />
-      <Home />
+      <main className="section-container">
+        <Home />
+        <Home />
+        <Home />
+      </main>
     </>
   );
 }

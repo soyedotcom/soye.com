@@ -1,0 +1,21 @@
+.web-section {
+  height: calc(100vh - 5rem);
+}
+
+.current-sect {
+  font-size: clamp(1rem, 3vw, 2rem);
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.sect-title {
+  font-size: clamp(3rem, 12vw, 8rem);
+  font-weight: 500;
+}
+.subheading {
+  font-size: clamp(1rem, 3vw, 2rem);
+  font-weight: 300;
+  line-height: clamp(1.5rem, 3vw, 3rem);
+
+  display: inline-flex;
+}
