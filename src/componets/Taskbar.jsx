@@ -1,3 +1,5 @@
+import "../styles/Taskbar.css";
+
 const Taskbar = () => {
   return (
     <header className="taskbar">

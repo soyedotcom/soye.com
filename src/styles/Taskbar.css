@@ -1,0 +1,8 @@
+.taskbar {
+  position: fixed;
+  z-index: 99;
+}
+
+.logo {
+  text-decoration: none;
+}
