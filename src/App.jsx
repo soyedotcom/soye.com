@@ -1,9 +1,11 @@
-import Taskbar from "./componets/Taskbar";
+import Taskbar from "./components/Taskbar";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
       <Taskbar />
+      <Home />
     </>
   );
 }
