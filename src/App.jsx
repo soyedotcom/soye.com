@@ -1,5 +1,11 @@
+import Taskbar from "./componets/Taskbar";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Taskbar />
+    </>
+  );
 }
 
 export default App;
