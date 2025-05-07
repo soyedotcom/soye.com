@@ -20,8 +20,8 @@
   font-weight: 300;
 }
 
-/* @media (max-height: 650px) {
+@media (max-width: 400px) {
   .quote-block {
-    display: none;
+    font-size: 1rem;
   }
-} */
+}
