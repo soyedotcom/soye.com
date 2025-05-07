@@ -39,7 +39,7 @@
   display: block;
 }
 
-@media (max-width: 68rem) {
+@media (max-width: 75rem) {
   .navbar {
     /* background-color: rgba(70, 70, 70, 0.645); */
     background-color: white;

@@ -35,7 +35,7 @@
   display: none;
 }
 
-@media (max-width: 68rem) {
+@media (max-width: 75rem) {
   .menu-button {
     display: block;
   }
