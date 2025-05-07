@@ -4,7 +4,7 @@
 
   position: fixed;
   z-index: 100;
-  right: 5vw;
+  right: 4vw;
 }
 
 .section-link {
@@ -24,7 +24,7 @@
   height: 0.5rem;
   width: 0.5rem;
   background-color: yellow;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   display: none;
   position: absolute;
   right: 1.5rem;
@@ -37,7 +37,7 @@
 
 .section-link:hover {
   border: 0.1rem solid hsla(0, 0%, 75%, 56%);
-  border-radius: 0.25rem;
+  /* border-radius: 0.25rem; */
 }
 
 /* @media (max-width: 68rem) {
@@ -49,6 +49,11 @@
     padding: 5rem 2rem;
     backdrop-filter: blur(50px);
   }
+
+  .link{
+  text-decoration: none;
+}
+
   .section-link {
     width: 10rem;
   }
