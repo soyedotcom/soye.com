@@ -4,7 +4,7 @@ const Taskbar = () => {
   return (
     <div className="taskbar-container">
       <header className="taskbar">
-        <a href="/index.html" className="logo">
+        <a href="https://mind-of-soye.github.io/soye.com/" className="logo">
           M.O.S
         </a>
       </header>
