@@ -16,7 +16,8 @@
 .box {
   /* background-color: hsla(0, 0%, 85%, 17%); */
   /* border-radius: 0.3rem; */
-  background-color: aquamarine;
+  background-color: rgba(211, 211, 211, 0.426);
+  border: 1px solid;
   cursor: pointer;
 }
 
