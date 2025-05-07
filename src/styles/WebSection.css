@@ -2,7 +2,6 @@
   min-height: calc(100vh - 5rem);
   display: grid;
   justify-content: center;
-  gap: 3vh;
 }
 
 .current-sect {
