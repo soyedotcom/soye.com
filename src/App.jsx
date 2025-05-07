@@ -3,6 +3,7 @@ import "../src/App.css";
 import Taskbar from "./components/Taskbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Projects from "./components/Projects"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main className="section-container">
         <Home />
         <About /> 
+        <Projects/>
       </main>
     </>
   );

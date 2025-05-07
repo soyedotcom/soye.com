@@ -2,6 +2,7 @@ import "../styles/WebSection.css";
 import "../styles/CodeBlock.css";
 import QuoteBlock from "./QuoteBlock";
 import AboutMeTxt from "./AboutMeTxt";
+import BentoBox from "./BentoBox";
 
 const WebSection = ({ currentSect, sectTitle, subHeading, codeText }) => {
   const SubSection = () => {
@@ -10,6 +11,8 @@ const WebSection = ({ currentSect, sectTitle, subHeading, codeText }) => {
         return <QuoteBlock />;
       case "About Me":
         return <AboutMeTxt />;
+      case "Projects":
+        return <BentoBox />;
       default:
         return <></>;
     }
