@@ -1,9 +1,10 @@
 .project-container {
-  margin: 15vh 0;
+  margin: 15vh 0 10vh 0;
+  max-width: 100%;
   display: grid;
-  width: 60vw;
+  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 25vh 25vh 25vh 25vh;
+  grid-template-rows: 21vh 21vh 21vh 21vh;
   gap: 1rem;
   grid-template-areas:
     "box-1 box-1 box-2 box-2"
@@ -21,10 +22,10 @@
 
 @media (max-width: 70rem) {
   .project-container {
-    margin: 8vh 0;
+    margin-top: 8vh;
     gap: 1vw;
     min-height: 60vh;
-    min-width: 100%;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 20vh 20vh 20vh 20vh;
 
