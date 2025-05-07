@@ -1,4 +1,4 @@
-import "./styles/QuoteBlock.css";
+import "../styles/QuoteBlock.css";
 
 const QuoteBlock = () => {
   return (
