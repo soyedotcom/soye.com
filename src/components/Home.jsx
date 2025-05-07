@@ -1,10 +1,9 @@
-import "../styles/Home.css";
 import "../styles/QuoteBlock.css";
 import WebSection from "./WebSection";
 
 const Home = () => {
   return (
-    <main>
+    <main id="home">
       <WebSection
         currentSect="Home"
         sectTitle="mind.of.soye"

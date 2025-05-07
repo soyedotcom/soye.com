@@ -17,7 +17,8 @@
 .subheading {
   font-size: clamp(1rem, 3vw, 1.8rem);
   font-weight: 300;
-  line-height: clamp(1.5rem, 3vw, 2.5rem);
+  line-height: clamp(2.1rem, 3vw, 2.5rem);
+  max-width: 50rem;
 
-  display: inline-flex;
+  display: inline-flex
 }

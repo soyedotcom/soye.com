@@ -8,7 +8,7 @@ const WebSection = ({ currentSect, sectTitle, subHeading, codeText }) => {
     switch (currentSect) {
       case "Home":
         return <QuoteBlock />;
-      case "About":
+      case "About Me":
         return <AboutMeTxt />;
       default:
         return <></>;
