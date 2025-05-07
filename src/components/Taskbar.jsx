@@ -11,7 +11,7 @@ const Taskbar = () => {
       <header className="taskbar">
         <div>
           <a href="https://mind-of-soye.github.io/soye.com/" className="logo">
-            m.o.s
+            soye.com
           </a>
         </div>
 
