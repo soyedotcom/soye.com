@@ -9,7 +9,7 @@
 }
 
 .taskbar {
-  border-bottom: 0.01rem solid #626161bb;
+  border-bottom: 0.01rem solid #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
