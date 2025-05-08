@@ -1,6 +1,6 @@
 .project-container {
-  margin: 15vh 0 10vh 0;
-  max-width: 100%;
+  margin: 15vh 0 15vh 0;
+  max-width: 80vw;
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,7 +25,7 @@
   .project-container {
     margin-top: 8vh;
     gap: 1vw;
-    min-height: 60vh;
+    min-height: 70vh;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 20vh 20vh 20vh 20vh;
