@@ -4,3 +4,9 @@
   margin: 5rem 16%;
   gap: 5vh;
 }
+
+@media (max-width: 70rem){
+  .section-container{
+    margin: 4rem 10vw;
+  }
+}
