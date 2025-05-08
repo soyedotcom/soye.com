@@ -11,7 +11,7 @@
 }
 
 .sect-title {
-  font-size: clamp(3rem, 12vw, 7.5rem);
+  font-size: clamp(3.3rem, 12vw, 7.5rem);
   font-weight: 500;
   margin-bottom: 2vh;
 }
