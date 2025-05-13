@@ -1,4 +1,5 @@
 import "../styles/Taskbar.css";
+import { Link } from "react-router-dom";
 
 const Taskbar = () => {
   const showMenu = () => {
@@ -10,9 +11,13 @@ const Taskbar = () => {
     <div className="taskbar-container">
       <header className="taskbar">
         <div>
-          <a href="https://mind-of-soye.github.io/soye.com/" className="logo">
+          <Link to="/" className="logo">
             soye.com
-          </a>
+          </Link>
+
+          {/* <a href="https://mind-of-soye.github.io/soye.com/" className="logo">
+            soye.com
+          </a> */}
         </div>
 
         <div>
