@@ -1,5 +1,4 @@
 import "../src/App.css";
-
 import Taskbar from "./components/Taskbar";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
