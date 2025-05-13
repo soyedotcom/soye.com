@@ -4,7 +4,7 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 21vh 21vh 21vh 21vh;
+  grid-template-rows: 20vh 20vh 20vh 20vh;
   gap: 1rem;
   grid-template-areas:
     "box-1 box-1 box-2 box-2"
@@ -28,7 +28,7 @@
     min-height: 70vh;
     width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20vh 20vh 20vh 20vh;
+    grid-template-rows: 22vh 22vh 22vh 22vh;
 
     grid-template-areas:
       "box-1 box-1 box-2"

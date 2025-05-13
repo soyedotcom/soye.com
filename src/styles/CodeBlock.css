@@ -9,7 +9,7 @@
 
 .code-block::before {
   content: "";
-  height: clamp(1rem, 5vh, 1.8rem);
+  height: clamp(1rem, 5vh, 1.9rem);
   width: 0.6rem;
   background-color: #0095ff;
   /* border-radius: 0.15rem; */
