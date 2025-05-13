@@ -26,7 +26,7 @@
     margin-top: 8vh;
     gap: 1vw;
     min-height: 70vh;
-    width: 100%;
+    max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 22vh 22vh 22vh 22vh;
 
