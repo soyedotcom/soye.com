@@ -3,10 +3,17 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import PageNotFound from "./PageNotFound";
 
-const router = createBrowserRouter([{ path: "/", element: <App /> }], {
-  basename: "/soye.com",
-});
+const router = createBrowserRouter(
+  [
+    { path: "/", element: <App /> },
+    { path: "*", element: <PageNotFound /> },
+  ],
+  {
+    basename: "/soye.com",
+  }
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

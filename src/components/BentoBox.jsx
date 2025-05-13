@@ -4,13 +4,7 @@ import { Link } from "react-router-dom";
 const BentoBox = () => {
   return (
     <main className="project-container">
-      <Link to="/" style={{ gridArea: "box-1" }} className="box">
-        <section></section>
-      </Link>
-      <Link to="/" style={{ gridArea: "box-1" }} className="box">
-        <section></section>
-      </Link>
-      <Link to="/" style={{ gridArea: "box-1" }} className="box">
+      <Link to="/some-path" style={{ gridArea: "box-1" }} className="box">
         <section></section>
       </Link>
       <Link to="/" style={{ gridArea: "box-2" }} className="box">
