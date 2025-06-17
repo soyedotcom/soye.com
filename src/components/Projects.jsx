@@ -10,7 +10,7 @@ const Home = () => {
         codeText={
           <>
             interested?
-            <span className="code-highlight"> loadProjects() </span>:
+            <span className="code-hidghlight"> loadProjects() </span>:
             backToHome();
           </>
         }
