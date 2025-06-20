@@ -1,4 +1,4 @@
-  vimport WebSection from "./WebSection";
+  import WebSection from "./WebSection";
 
 const About = () => {
   return (
