@@ -42,8 +42,8 @@
 @media (max-width: 75rem) {
   .navbar {
     /* background-color: rgba(70, 70, 70, 0.645); */
-    background-color: white;
-    border-left: 0.01rem solid;
+    background-color: #1b1c1d;
+    border-left: 0.01rem solid #ffffff23;
     top: 0;
     right: 0;
     bottom: 0;

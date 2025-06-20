@@ -7,7 +7,7 @@
 .current-sect {
   font-size: clamp(1rem, 3vw, 1.8rem);
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: #efede3;
 }
 
 .sect-title {

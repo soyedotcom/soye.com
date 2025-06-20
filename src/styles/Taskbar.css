@@ -5,11 +5,11 @@
   left: 0;
   right: 0;
   max-width: 100vw;
-  background-color: white;
+  background-color: #1b1c1d;
 }
 
 .taskbar {
-  border-bottom: 0.01rem solid;
+  border-bottom: 0.01rem solid #ffffff23;
   display: flex;
   justify-content: space-between;
   align-items: center;
