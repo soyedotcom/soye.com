@@ -1,0 +1,34 @@
+.code-block {
+  margin-top: 3rem;
+  background-color: hsla(0, 0%, 59%, 14%);
+  /* border-radius: 0.25rem; */
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem 0.2rem 0;
+}
+
+.code-block::before {
+  content: "";
+  height: clamp(1rem, 5vh, 1.9rem);
+  width: 0.6rem;
+  background-color: #0095ff;
+  /* border-radius: 0.15rem; */
+  margin: 0 0.6rem 0 0.25rem;
+}
+
+.code-text {
+  font-family: "Source Code Pro";
+  font-size: clamp(0.8rem, 2.5vw, 1.5rem);
+}
+
+#home .code-highlight {
+  color: yellow;
+}
+
+#about .code-highlight {
+  color: #f90074;
+}
+
+#projects .code-highlight {
+  color: #fb00ff;
+}

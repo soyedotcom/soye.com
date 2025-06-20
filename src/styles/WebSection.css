@@ -1,0 +1,25 @@
+.web-section {
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  justify-content: center;
+}
+
+.current-sect {
+  font-size: clamp(1rem, 3vw, 1.8rem);
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.sect-title {
+  font-size: clamp(3.3rem, 12vw, 7.5rem);
+  font-weight: 500;
+  margin-bottom: 2vh;
+}
+.subheading {
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-weight: 300;
+  line-height: clamp(2.2rem, 6.5vh, 2.5rem);
+  max-width: 50rem;
+
+  display: inline-flex;
+}
