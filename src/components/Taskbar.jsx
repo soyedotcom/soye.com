@@ -8,10 +8,10 @@ const Taskbar = () => {
   };
 
   return (
-    <div className="taskbar-container">
-      <header className="taskbar">
+    <div class="fixed top-0 left-0 right-0 z-[100] max-w-full bg-white">
+      <header class="flex justify-between items-center border-b border-black">
         <div>
-          <Link to="/" className="logo">
+          <Link to="/" class="text-[1.5rem] cursor-pointer ml-[3vw]">
             soye.com
           </Link>
 
@@ -21,7 +21,10 @@ const Taskbar = () => {
         </div>
 
         <div>
-          <button className="menu-button" onClick={showMenu}>
+          <button
+            class="text-[1.5rem] mr-[3vw] hidden max-[75rem]:block"
+            onClick={showMenu}
+          >
             .menu
           </button>
         </div>

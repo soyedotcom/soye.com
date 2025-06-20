@@ -5,15 +5,15 @@ import Taskbar from "./components/Taskbar.jsx";
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-
       <Taskbar />
+
+      {/* <Taskbar />
       <Navbar />
       <main className="section-container">
         <Home />
         <About />
         <Projects />
-      </main>
+      </main> */}
     </>
   );
 }
