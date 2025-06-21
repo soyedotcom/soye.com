@@ -6,7 +6,7 @@ const Home = () => {
     <main id="home">
       <WebSection
         currentSect="Home"
-        sectTitle="mind.of.soye"
+        sectTitle="soyedotcom"
         subHeading="Computer engineering student and jack of all trades"
         codeText={
           <>

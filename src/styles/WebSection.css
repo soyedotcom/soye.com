@@ -1,25 +1,30 @@
 .web-section {
   min-height: calc(100vh - 5rem);
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .current-sect {
-  font-size: clamp(1rem, 3vw, 1.8rem);
+  font-size: clamp(1rem, 3vw, 1.5rem);
   font-weight: 400;
   color: #efede3;
 }
 
 .sect-title {
-  font-size: clamp(3.3rem, 12vw, 7.5rem);
+  font-size: clamp(3.3rem, 12vw, 6rem);
   font-weight: 500;
   margin-bottom: 2vh;
 }
 .subheading {
-  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-size: clamp(1.3rem, 3vw, 1.5rem);
   font-weight: 300;
-  line-height: clamp(2.2rem, 6.5vh, 2.5rem);
+  line-height: clamp(2.2rem, 6.5vh, 2.8rem);
   max-width: 50rem;
+}
 
-  display: inline-flex;
+@media (max-width: 70rem) {
+  .web-section {
+    text-align: center;
+  }
 }

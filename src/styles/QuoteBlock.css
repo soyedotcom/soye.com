@@ -1,6 +1,6 @@
 .quote-block {
   max-width: 100vw;
-  display: grid;
+  display: flex;
   text-align: center;
   flex-direction: column;
   gap: 0.8rem;
