@@ -1,12 +1,12 @@
 .section-container {
   display: flex;
   flex-direction: column;
-  margin: 5rem 16%;
+  padding: 5rem 11%;
   gap: 5vh;  
 }
 
 @media (max-width: 70rem){
   .section-container{
-    margin: 10vh 7vw;
+    padding: 10vh 8vw;
   }
 }
