@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mind-of-soye.github.io/soye.com/",
+  "homepage": "https://soyedotcom.github.io/soye.com/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
