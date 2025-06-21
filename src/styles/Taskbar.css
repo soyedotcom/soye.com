@@ -13,19 +13,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0.5rem 1.5rem;
 }
 
 .logo {
   text-decoration: none;
   font-weight: 400;
   font-size: 1.6rem;
-  padding: 0 3vw;
 
   cursor: pointer;
 }
 
 .menu-button {
-  margin-right: 3vw;
   background-color: transparent;
   border: none;
   cursor: pointer;

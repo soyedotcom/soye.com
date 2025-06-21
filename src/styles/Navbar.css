@@ -59,14 +59,12 @@
 
   .section-link {
     width: 10rem;
-
     border: 0.09rem solid transparent;
-    border-bottom: 0.09rem solid black;
   }
 
   .section-link:hover {
     border: 0.09rem solid transparent;
-    border-bottom: 0.09rem solid black;
+    border-bottom: 0.09rem solid #ffffff23;
     /* border-radius: 0.25rem; */
   }
 
