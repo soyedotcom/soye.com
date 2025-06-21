@@ -8,9 +8,9 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <Taskbar />
-      <Navbar />
       <main className="section-container">
+        <Taskbar />
+        <Navbar />
         <Home />
         <About />
         <Projects />
