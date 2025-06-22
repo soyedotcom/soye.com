@@ -19,7 +19,7 @@ const BentoBox = () => {
       <Link to="/" style={{ gridArea: "box-5" }} className="box">
         <section></section>
       </Link>
-      <Link to="/" style={{ gridArea: "box-6" }} className="box">
+      {/* <Link to="/" style={{ gridArea: "box-6" }} className="box">
         <section></section>
       </Link>
       <Link to="/" style={{ gridArea: "box-7" }} className="box">
@@ -27,7 +27,7 @@ const BentoBox = () => {
       </Link>
       <Link to="/" style={{ gridArea: "box-8" }} className="box">
         <section></section>
-      </Link>
+      </Link> */}
 
       {/* <a href="" style={{ gridArea: "box-1" }} className="box">
         <section></section>

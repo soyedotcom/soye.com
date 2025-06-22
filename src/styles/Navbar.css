@@ -4,27 +4,44 @@
 
   position: fixed;
   z-index: 90;
-  right: 2vw;
-  margin: 6rem 15%;
+  top: 3rem;
+  right: 0;
+  bottom: 0;
+  padding: 9vh 5vw;
+  background-color: #1b1c1d;
+  border-left: 0.01rem solid #ffffff23;
+  display: none;
+  justify-content: center;
+}
+
+.navbar.active {
+  display: block;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .section-link {
-  border: 0.1rem solid transparent;
+  border: 0.09rem solid transparent;
   height: 2.9rem;
-  width: 7rem;
+  width: 10rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 1.5rem;
+  position: relative;
 
   transition: border 0.3s ease, border-radius 0.3s ease;
   cursor: pointer;
 }
+
 .section-link:hover {
-  border: 0.1rem solid transparent;
-  /* border-radius: 0.25rem; */
+  border: 0.09rem solid transparent;
+  border-bottom: 0.09rem solid #ffffff23;
 }
 
-.section-link:after {
+/* .section-link::after {
   content: "";
   height: 0.5rem;
   width: 0.5rem;
@@ -32,54 +49,11 @@
   border-radius: 100%;
   display: none;
   position: absolute;
-  right: 1.5rem;
+  right: 3.5rem;
 
   transition: display 0.25s ease;
 }
+
 .section-link:hover::after {
   display: block;
-}
-
-@media (max-width: 75rem) {
-  .navbar {
-    /* background-color: rgba(70, 70, 70, 0.645); */
-    background-color: #1b1c1d;
-    border-left: 0.01rem solid #ffffff23;
-    top: 3rem;
-    right: 0;
-    bottom: 0;
-    padding: 9vh 5vw;
-    display: grid;
-    justify-content: center;
-    display: none;
-  }
-
-  .link {
-    text-decoration: none;
-  }
-
-  .section-link {
-    width: 10rem;
-    border: 0.09rem solid transparent;
-  }
-  .section-link:hover {
-    border: 0.09rem solid transparent;
-    border-bottom: 0.09rem solid #ffffff23;
-    /* border-radius: 0.25rem; */
-  }
-
-  .section-link:after {
-    content: "";
-    height: 0.5rem;
-    width: 0.5rem;
-    background-color: yellow;
-    border-radius: 100%;
-    display: none;
-    position: absolute;
-    right: 3.5rem;
-  }
-
-  .navbar.active {
-    display: block;
-  }
-}
+} */
