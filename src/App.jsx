@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <main>
+    <>
       <Taskbar />
       <Navbar />
       <section className="section-container">
@@ -15,7 +15,7 @@ function App() {
         <About />
         <Projects />
       </section>
-    </main>
+    </>
   );
 }
 
