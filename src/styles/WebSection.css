@@ -20,7 +20,7 @@
   font-size: clamp(1.3rem, 3vw, 1.5rem);
   font-weight: 300;
   line-height: clamp(2.2rem, 6.5vh, 2.8rem);
-  max-width: 50rem;
+  max-width: 42rem;
 }
 
 @media (max-width: 70rem) {
