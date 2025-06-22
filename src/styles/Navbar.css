@@ -29,7 +29,7 @@
   height: 0.5rem;
   width: 0.5rem;
   background-color: yellow;
-  /* border-radius: 100%; */
+  border-radius: 100%;
   display: none;
   position: absolute;
   right: 1.5rem;
@@ -62,7 +62,6 @@
     width: 10rem;
     border: 0.09rem solid transparent;
   }
-
   .section-link:hover {
     border: 0.09rem solid transparent;
     border-bottom: 0.09rem solid #ffffff23;
@@ -74,7 +73,7 @@
     height: 0.5rem;
     width: 0.5rem;
     background-color: yellow;
-    /* border-radius: 100%; */
+    border-radius: 100%;
     display: none;
     position: absolute;
     right: 3.5rem;
