@@ -33,3 +33,10 @@
   color: #fb00ff;
   font-family: "Source Code Pro";
 }
+
+@media (max-width: 70rem){
+  .code-block {
+  align-items: center;
+  justify-content: center;
+}
+}

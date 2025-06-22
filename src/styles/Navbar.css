@@ -5,6 +5,7 @@
   position: fixed;
   z-index: 90;
   right: 4vw;
+  margin: 15vh 0;
 }
 
 .section-link {

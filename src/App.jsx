@@ -7,15 +7,15 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
-      <main className="section-container">
-        <Taskbar />
-        <Navbar />
+    <main>
+      <Taskbar />
+      <Navbar />
+      <section className="section-container">
         <Home />
         <About />
         <Projects />
-      </main>
-    </>
+      </section>
+    </main>
   );
 }
 

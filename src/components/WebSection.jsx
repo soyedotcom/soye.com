@@ -7,8 +7,8 @@ import BentoBox from "./BentoBox";
 const WebSection = ({ currentSect, sectTitle, subHeading, codeText }) => {
   const SubSection = () => {
     switch (currentSect) {
-      case "Home":
-        return <QuoteBlock />;
+      // case "Home":
+      //   return <QuoteBlock />;
       case "About Me":
         return <AboutMeTxt />;
       case "Projects":
