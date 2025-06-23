@@ -12,6 +12,6 @@ main {
 
 @media (max-width: 450px) {
   .section-container {
-    padding: 10vh 8vw;
+    padding: 10vh 0;
   }
 }

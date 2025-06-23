@@ -15,11 +15,10 @@
   cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .project-container {
     margin-top: 8vh;
-    gap: 1vw;
-    max-width: 100%;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }
