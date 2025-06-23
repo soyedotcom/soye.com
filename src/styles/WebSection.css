@@ -20,20 +20,20 @@
 }
 
 .subheading {
-  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  font-size: clamp(1.2rem, 3vw, 1.7rem);
   font-weight: 300;
   line-height: clamp(2.2rem, 6.5vh, 2.8rem);
   max-width: 55vw;
   margin: 7vh auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .web-section {
     margin: 2vh 0;
   }
   .subheading {
     margin: 3.8vh auto;
-    width: 75vw;
+    max-width: 100%;
   }
 }
 
