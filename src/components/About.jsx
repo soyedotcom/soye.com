@@ -1,4 +1,4 @@
-  import WebSection from "./WebSection";
+import WebSection from "./WebSection";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         codeText={
           <>
             soye
-            <span className="code-highlight">@mindofsoye:~$ </span>
+            <span className="code-highlight">@soyedotcom:~$ </span>
             cat aboutMe.txt
           </>
         }
