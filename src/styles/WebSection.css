@@ -2,6 +2,8 @@
   /* height: calc(100vh - 5rem); */
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin: 15vh 0;
 }
 
@@ -9,22 +11,29 @@
   font-size: clamp(1rem, 3vw, 1.5rem);
   font-weight: 400;
   color: #efede37b;
+  margin-bottom: 3vh;
 }
 
 .sect-title {
-  font-size: clamp(3.3rem, 12vw, 6rem);
+  font-size: clamp(3.3rem, 12vw, 8rem);
   font-weight: 500;
-  margin-bottom: 2vh;
 }
+
 .subheading {
   font-size: clamp(1.3rem, 3vw, 1.5rem);
   font-weight: 300;
   line-height: clamp(2.2rem, 6.5vh, 2.8rem);
-  max-width: 42rem;
+  max-width: 50rem;
+  margin: 7vh;
+  margin: clamp(5vh, 5vh, 7vh);
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 820px) {
   .web-section {
-    text-align: center;
+    margin: 2vh 0;
+  }
+  .subheading {
+    margin: 3.8vh;
+    width: 80vw;
   }
 }

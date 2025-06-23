@@ -5,7 +5,9 @@
   display: flex;
   width: fit-content;
   align-items: center;
+  justify-content: center;
   padding: 0.2rem 0.5rem 0.2rem 0;
+  margin: 0 auto;
 }
 
 .code-block::before {
@@ -32,11 +34,4 @@
 #projects .code-highlight {
   color: #fb00ff;
   font-family: "Source Code Pro";
-}
-
-@media (max-width: 70rem){
-  .code-block {
-  align-items: center;
-  justify-content: center;
-}
 }
