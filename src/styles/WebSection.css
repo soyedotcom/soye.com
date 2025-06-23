@@ -37,12 +37,12 @@
   }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
   .web-section {
     margin: 2vh 0;
   }
   .subheading {
     margin: 3.8vh auto;
-    width: 80vw;
+    max-width: 80vw;
   }
 }

@@ -10,8 +10,8 @@ main {
   flex-direction: column;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 900px) {
   .section-container {
-    padding: 10vh 0;
+    margin: 10vh 5%;
   }
 }
