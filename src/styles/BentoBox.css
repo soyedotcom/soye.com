@@ -1,13 +1,10 @@
 .project-container {
-  margin: 5rem 0;
-  width: 70%;
+  margin: 5rem auto;
+  width: 100%;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  grid-template-areas:
-    "box-1 box-2 box-5 "
-    "box-3 box-4 box-5 ";
 }
 
 .box {
@@ -18,18 +15,11 @@
   cursor: pointer;
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 500px) {
   .project-container {
     margin-top: 8vh;
     gap: 1vw;
-    min-height: 70vh;
     max-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 22vh 22vh 22vh 22vh;
-
-    grid-template-areas:
-      "box-1 box-1 box-2"
-      "box-3 box-4 box-4"
-      "box-5 box-6 box-7";
+    grid-template-columns: repeat(2, 1fr);
   }
 }
