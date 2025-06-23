@@ -27,7 +27,7 @@
   margin: 7vh auto;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .web-section {
     margin: 2vh 0;
   }
