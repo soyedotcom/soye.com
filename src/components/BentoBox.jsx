@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import Box from "./Box";
-import calcImg from '../assets/calc.png'
-import rpsImg from '../assets/rps.png'
-import svgImg from '../assets/svg_12359418.png'
+// import calcImg from '../assets/calc.png'
+// import rpsImg from '../assets/rps.png'
+import svgImg from '../assets/landscape-placeholder.svg'
 
 const BentoBox = () => {
   return (
