@@ -6,7 +6,7 @@ const Box = ({ projectImg, projectName, projectLink }) => {
     <>
       <Link to={projectLink}>
         <div className="box">
-          <img src={projectImg} alt="preview" />
+          <img src={projectImg} alt="" />
           <p>{projectName}</p>
         </div>
       </Link>

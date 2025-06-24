@@ -4,7 +4,7 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1.8rem;
 }
 
 .box-link {
@@ -29,7 +29,11 @@
   object-position: center;
 }
 
-.box p{
+.box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   position: relative;
   height: 100%;
   width: 100%;
@@ -37,11 +41,15 @@
   position: absolute;
   background-color: rgba(0, 0, 0, 0.786);
   font-size: 1.5rem;
-  display: none;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .box:hover p {
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 @media (max-width: 450px) {
