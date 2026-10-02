@@ -5,10 +5,6 @@ const Taskbar = () => {
   const showMenu = () => {
     const menu = document.querySelector(".navbar");
     menu.classList.toggle("active");
-
-    setTimeout(()=>{
-      menu.classList.remove("active")
-    }, 1500)
   };
 
   return (
