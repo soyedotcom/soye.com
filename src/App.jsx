@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="font-bodoni">hello world!</h1>
+      <div className="font-bodoni text-[96px] text-center">SOYEDOTCOM</div>
     </>
   );
 }
