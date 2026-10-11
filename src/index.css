@@ -6,9 +6,10 @@
   --font-outline: "Londrina Outline", cursive;
   --font-shadow: "Londrina Shadow", cursive;
   --font-sketch: "Londrina Sketch", cursive;
-  --font-solid: "Londrina Solid", cursive;  
+  --font-solid: "Londrina Solid", cursive;
 }
 
-body{
-  background-color: #1F1F1F;
+body {
+  background-color: #1f1f1f;
 }
+ 
