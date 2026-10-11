@@ -1,6 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Sketch&family=Londrina+Solid:wght@100;300;400;900&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-bodoni: "Bodoni Moda", serif;
+  --font-outline: "Londrina Outline", cursive;
+  --font-shadow: "Londrina Shadow", cursive;
+  --font-sketch: "Londrina Sketch", cursive;
+  --font-solid: "Londrina Solid", cursive;  
+}
+
+body{
+  background-color: #1F1F1F;
 }
