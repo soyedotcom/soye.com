@@ -12,7 +12,7 @@ function App() {
         <div className="items-center absolute bottom-0 left-0 right-0">
           <img
             className="w-screen"
-            src="maintag_homepage.svg"
+            src="maintag_homepage.png"
             alt="soyedotcom_maintag"
           />
         </div>

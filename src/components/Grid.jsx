@@ -1,7 +1,7 @@
 const Grid = () => {
   return (
     <div
-      className="w-full min-h-screen bg-[#161616]"
+      className="w-full min-h-screen bg-transparent"
       style={{
         backgroundImage: `
           linear-gradient(to right, rgba(255, 255, 255, 0.05) 2px, transparent 2px),
