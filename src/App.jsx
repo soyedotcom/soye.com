@@ -1,22 +1,27 @@
 import "./App.css";
 import Noise from "./components/Noise.jsx";
 import Grid from "./components/Grid.jsx";
+import ProfileCard from "./components/ProfileCard.jsx";
 
 function App() {
   return (
     <>
-      <main className="relative min-h-screen w-full overflow-hidden bg-[#161616]">
-        <Noise />
+      <div className="min-h-screen w-full">
         <Grid />
+        <Noise />
 
-        <div className="items-center absolute bottom-0 left-0 right-0">
+        <main className="flex flex-col w-full items-center px-4 sm:px-6">
+          <ProfileCard />
+        </main>
+
+        {/* <div className="items-center absolute bottom-0 left-0 right-0">
           <img
             className="w-screen"
             src="maintag_homepage.png"
             alt="soyedotcom_maintag"
           />
-        </div>
-      </main>
+        </div> */}
+      </div>
     </>
   );
 }
