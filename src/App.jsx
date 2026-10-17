@@ -1,12 +1,14 @@
 import "./App.css";
 import Noise from "./components/Noise.jsx";
 import Grid from "./components/Grid.jsx";
+import NavBar from "./components/NavBar.jsx";
 import ProfileCard from "./components/ProfileCard.jsx";
 
 function App() {
   return (
     <>
       <div className="min-h-screen w-full">
+        <NavBar />
         <Grid />
         <Noise />
 

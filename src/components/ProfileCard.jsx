@@ -21,30 +21,30 @@ const ProfileCard = () => {
           </p>
         </article>
 
-        <section className="flex flex-row text-[clamp(0.8rem,1.2vw,1rem)] font-solid font-light justify-center gap-x-6 sm:gap-x-10 mb-3 sm:mb-5 md:mb-7 lg:mb-10">
+        <section className="flex flex-row text-[clamp(0.8rem,1.2vw,1rem)] font-solid font-light justify-center gap-x-[3vw] sm:gap-x-10 mb-3 sm:mb-5 md:mb-7 lg:mb-10">
           <a
-            className="hover:text-blue-800"
+            className="hover:text-red-800"
             target="_blank"
             href="https://mail.google.com/mail/?view=cm&fs=1&to=usorohsoye@gmail.com"
           >
             Email
           </a>
           <a
-            className="hover:text-blue-800"
+            className="hover:text-red-800"
             target="_blank"
             href="https://github.com/soyedotcom"
           >
             Github
           </a>
           <a
-            className="hover:text-blue-800"
+            className="hover:text-red-800"
             target="_blank"
             href="https://www.linkedin.com/in/soye-usoroh"
           >
             LinkedIn
           </a>
           <a
-            className="hover:text-blue-800"
+            className="hover:text-red-800"
             target="_blank"
             rel="noopener"
             href="Soye_Resume.pdf"
