@@ -2,28 +2,22 @@ import "./App.css";
 import Noise from "./components/Noise.jsx";
 import Grid from "./components/Grid.jsx";
 import NavBar from "./components/NavBar.jsx";
-import ProfileCard from "./components/ProfileCard.jsx";
 
 function App() {
   return (
     <>
-      <div className="min-h-screen w-full">
+      <Grid />
+      <Noise />
+
+      <main className="z-10 max-w-screen flex flex-col items-center mx-4 sm:mx-6">
         <NavBar />
-        <Grid />
-        <Noise />
 
-        <main className="flex flex-col w-full items-center px-4 sm:px-6">
-          <ProfileCard />
-        </main>
-
-        {/* <div className="items-center absolute bottom-0 left-0 right-0">
-          <img
-            className="w-screen"
-            src="maintag_homepage.png"
-            alt="soyedotcom_maintag"
-          />
-        </div> */}
-      </div>
+        <section className="flex flex-col min-h-screen">
+          <figure className="mt-auto">
+            <img src="maintag_homepage.png" alt="soyedotcom_maintag" />
+          </figure>
+        </section>
+      </main>
     </>
   );
 }
