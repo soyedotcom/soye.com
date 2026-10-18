@@ -5,7 +5,7 @@ import ProfileCard from "./ProfileCard.jsx";
 const NavBar = () => {
   const [time, setTime] = useState(new Date());
   const [menuState, setMenuState] = useState(false);
-  const [cardOpen, setCardOpen] = useState(false)
+  const [cardOpen, setCardOpen] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -41,7 +41,12 @@ const NavBar = () => {
         <div className="hidden items-center gap-x-[3vw] sm:gap-x-10 md:flex">
           <a href="#about">.about</a>
           <a href="#projects">.projects</a>
-          <button className="hover:cursor-pointer">.contactMe</button>
+          <button
+            onClick={() => setCardOpen(true)}
+            className="hover:cursor-pointer"
+          >
+            .contactMe
+          </button>
         </div>
 
         <div className="flex items-center gap-x-[5vw] md:gap-x-[0.5vw]">
@@ -52,6 +57,7 @@ const NavBar = () => {
       </nav>
 
       {menuState && <NavBar_Mobile onClose={() => setMenuState(false)} />}
+      {cardOpen  && <ProfileCard onClose={() => cardOpen(false)} />}
     </>
   );
 };
