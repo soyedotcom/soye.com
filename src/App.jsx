@@ -2,7 +2,6 @@ import "./App.css";
 import Noise from "./components/Noise.jsx";
 import Grid from "./components/Grid.jsx";
 import NavBar from "./components/NavBar.jsx";
-// import ProfileCard from "./components/ProfileCard.jsx";
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
           id="home"
           className="flex flex-col md:min-h-screen min-h-[60svh]"
         >
-          <div className="font-lora mt-auto text-[clamp(1rem,3.2vw,5rem)] leading-normal">
+          <div className="font-lora mt-auto text-[clamp(1rem,3vw,4rem)] leading-normal">
             <p>I am Soye Usoroh,</p>
             <p>
               a <span className="italic">digital polymath</span> and{" "}

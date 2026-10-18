@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import NavBar_Mobile from "./NavBar_Mobile";
+import ProfileCard from "./ProfileCard.jsx";
 
 const NavBar = () => {
   const [time, setTime] = useState(new Date());
   const [menuState, setMenuState] = useState(false);
+  const [cardOpen, setCardOpen] = useState(false)
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -13,14 +15,9 @@ const NavBar = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const showMenu = () => {
-    const menu = document.querySelector(".mobile_nav");
-    menu.classList.toggle("active");
-  };
-
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 flex flex-row bg-transparent font-solid text-[clamp(0.8rem,1.2vw,1rem)] justify-between align-middle m-[2vh]">
+      <nav className="fixed top-0 left-0 right-0 flex flex-row bg-transparent font-solid text-[clamp(0.8rem,1.2vw,1.5rem)] justify-between align-middle m-[2vh]">
         <div className="hidden items-center md:flex">
           <a href="#home">
             <img
