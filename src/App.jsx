@@ -14,7 +14,7 @@ function App() {
 
         <section className="flex flex-col h-screen">
           <figure className="mt-auto">
-            <img src="maintag_homepage.png" alt="soyedotcom_maintag" />
+            <img src="maintag_homepage_noversion.png" alt="soyedotcom_maintag" />
           </figure>
         </section>
       </main>
