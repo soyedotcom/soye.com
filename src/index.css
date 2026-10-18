@@ -13,4 +13,5 @@
 body {
   background-color: #161616;
   color: #ffff;
+  /* scrollbar-width: none; */
 }

@@ -12,7 +12,7 @@ function App() {
       <main className="z-10 max-w-screen flex flex-col items-center mx-4 sm:mx-6">
         <NavBar />
 
-        <section className="flex flex-col min-h-screen">
+        <section className="flex flex-col h-screen">
           <figure className="mt-auto">
             <img src="maintag_homepage.png" alt="soyedotcom_maintag" />
           </figure>
