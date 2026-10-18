@@ -14,7 +14,10 @@ function App() {
       <main className="z-10 max-w-screen flex flex-col items-center mx-4 sm:mx-6">
         <NavBar />
 
-        <section id="home" className="flex flex-col md:min-h-screen min-h-[55svh]">
+        <section
+          id="home"
+          className="flex flex-col md:min-h-screen min-h-[60svh]"
+        >
           <div className="font-lora mt-auto text-[clamp(1rem,3.2vw,5rem)] leading-normal">
             <p>I am Soye Usoroh,</p>
             <p>
