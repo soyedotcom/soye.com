@@ -55,17 +55,31 @@ function App() {
             .About
           </h1>
 
-          <article className="text-[clamp(1.3rem,1vw,1.5rem)] leading-relaxed text-left font-solid font-light">
-            I'm a computer engineering graduate with a curiosity for how things
-            work, how they're built and how they can be made better. I explore
-            the intersections of software, hardware, electronics and thoughtful
-            design, creating everything from web applications and games to
-            embedded systems and interactive 3D experiences.
+          <article className="text-[clamp(1.3rem,1vw,1.5rem)] leading-relaxed text-left font-solid font-light ">
+            <p>I am Soye and I enjoy making things.</p>
+            <p>
+              I'm a computer engineering graduate with a curiosity for how
+              things work, how they're built and how they can be made better. I
+              explore the intersections of software, hardware, electronics and
+              thoughtful design, creating everything from web applications and
+              games to embedded systems and interactive 3D experiences.
+            </p>
           </article>
         </section>
       </main>
 
-      <footer>This is a footer</footer>
+      <footer className="bg-[#1d1d1d] relative p-4 w-full z-200 flex flex-col mt-[5vh] font-solid gap-[2vh] items-center">
+        <figure>
+          <img
+            src="maintag_homepage_noborder.png"
+            alt="@soyedotcom"
+            className="w-[35vw] block"
+          />
+        </figure>
+        <p className="text-[clamp(0.8rem,1vw,1rem)] text-center">
+          MADE BY SOYE USOROH · 2026 VERSION · 0.2
+        </p>
+      </footer>
     </>
   );
 }
