@@ -3,7 +3,7 @@ const ProfileCard = ({ onClose }) => {
     <>
       <main
         onClick={onClose}
-        className="z-100 fixed flex justify-center items-center h-screen w-screen inset-0 bg-[#1c1c1cf6] px-9"
+        className="fixed z-200 flex justify-center items-center h-screen w-screen inset-0 bg-[#1c1c1cf6] px-9"
       >
         <section className="bg-[#F4F4F4] w-full max-w-160 h-100 rounded-2xl text-black text-center px-7 sm:px-9 md:px-11 lg:px-14">
           <header>

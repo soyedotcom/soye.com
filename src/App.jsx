@@ -38,7 +38,7 @@ function App() {
             .Projects
           </h1>
 
-          <section className="bg-[#a7a7a7] rounded-md text-[#2d2d2d] md:py-[5vh] md:px-[2vw] text-center">
+          <section className="bg-[#a9a9a9] rounded-md text-[#2c2c2c] md:py-[5vh] md:px-[2vw] text-center">
             <article className="flex flex-col my-7 gap-[2vh]">
               <p className="text-[clamp(2rem,4vw,4rem)]">
                 CURRENTLY UNDER CONSTRUCTION
@@ -68,7 +68,7 @@ function App() {
         </section>
       </main>
 
-      <footer className="bg-[#1d1d1d] relative p-4 w-full z-200 flex flex-col mt-[5vh] font-solid gap-[2vh] items-center">
+      <footer className="bg-[#1d1d1d] relative p-4 w-full flex flex-col mt-[5vh] font-solid gap-[2vh] items-center">
         <figure>
           <img
             src="maintag_homepage_noborder.png"
@@ -77,7 +77,7 @@ function App() {
           />
         </figure>
         <p className="text-[clamp(0.8rem,1vw,1rem)] text-center">
-          MADE BY SOYE USOROH · 2026 VERSION · 0.2
+          MADE BY SOYE USOROH · 2026 · VERSION 0.2
         </p>
       </footer>
     </>

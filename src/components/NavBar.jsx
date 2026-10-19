@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 flex flex-row bg-transparent font-solid text-[clamp(0.8rem,1.2vw,1.5rem)] justify-between align-middle m-[2vh]">
+      <nav className="fixed top-0 left-0 right-0 flex flex-row bg-[#1d1d1d] font-solid text-[clamp(0.8rem,1.2vw,1.5rem)] justify-between align-middle p-[2vh]">
         <div className="hidden items-center md:flex">
           <a href="#home">
             <img
