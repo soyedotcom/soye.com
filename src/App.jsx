@@ -39,10 +39,14 @@ function App() {
           </h1>
 
           <section className="bg-[#a7a7a7] rounded-md text-[#2d2d2d] md:py-[5vh] md:px-[2vw] text-center">
-            <p className="text-[clamp(2rem,4vw,4rem)] my-7">
-              CURRENTLY UNDER CONSTRUCTION
-            </p>
-            <p className="italic">thank you for understanding.</p>
+            <article className="flex flex-col my-7 gap-[2vh]">
+              <p className="text-[clamp(2rem,4vw,4rem)]">
+                CURRENTLY UNDER CONSTRUCTION
+              </p>
+              <p className="italic text-[clamp(0.8rem,1vw,1rem)]">
+                thank you for understanding!
+              </p>
+            </article>
           </section>
         </section>
 
@@ -50,6 +54,14 @@ function App() {
           <h1 className="font-outline text-[clamp(2rem,4vw,4.5rem)] mb-[2.5vh]">
             .About
           </h1>
+
+          <article className="text-[clamp(1.3rem,1vw,1.5rem)] leading-relaxed text-left font-solid font-light">
+            I'm a computer engineering graduate with a curiosity for how things
+            work, how they're built and how they can be made better. I explore
+            the intersections of software, hardware, electronics and thoughtful
+            design, creating everything from web applications and games to
+            embedded systems and interactive 3D experiences.
+          </article>
         </section>
       </main>
 
