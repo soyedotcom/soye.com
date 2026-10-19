@@ -1,8 +1,11 @@
-const ProfileCard = () => {
+const ProfileCard = ({ onClose }) => {
   return (
     <>
-      <main className="z-100 fixed flex justify-center items-center h-screen w-screen inset-0">
-        <section className="bg-[#F4F4F4] w-full max-w-160 h-100 rounded-2xl text-black text-center px-5 sm:px-7 md:px-9 lg:px-12">
+      <main
+        onClick={onClose}
+        className="z-100 fixed flex justify-center items-center h-screen w-screen inset-0 bg-[#1c1c1cf6] px-9"
+      >
+        <section className="bg-[#F4F4F4] w-full max-w-160 h-100 rounded-2xl text-black text-center px-7 sm:px-9 md:px-11 lg:px-14">
           <header>
             <h1 className="font-shadow text-[clamp(2.5rem,7vw,5.5rem)]">
               Soye Usoroh
@@ -24,31 +27,31 @@ const ProfileCard = () => {
 
           <section className="flex flex-row text-[clamp(0.8rem,1.2vw,1rem)] font-solid font-light justify-center gap-x-[3vw] sm:gap-x-10 mb-3 sm:mb-5 md:mb-7 lg:mb-10">
             <a
-              className="hover:text-red-800"
+              className="hover:underline"
               target="_blank"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=usorohsoye@gmail.com"
             >
               Email
             </a>
             <a
-              className="hover:text-red-800"
+              className="hover:underline"
               target="_blank"
               href="https://github.com/soyedotcom"
             >
               Github
             </a>
             <a
-              className="hover:text-red-800"
+              className="hover:underline"
               target="_blank"
               href="https://www.linkedin.com/in/soye-usoroh"
             >
               LinkedIn
             </a>
             <a
-              className="hover:text-red-800"
+              className="hover:underline"
               target="_blank"
               rel="noopener"
-              href="Soye_Resume.pdf"
+              href="Soye_Usoroh_Resume.pdf"
             >
               Resume
             </a>

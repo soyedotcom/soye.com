@@ -38,7 +38,7 @@ const NavBar = () => {
           </button>
         </div>
 
-        <div className="hidden items-center gap-x-[3vw] sm:gap-x-10 md:flex">
+        <div className="hidden justify-center items-center gap-x-[3vw] sm:gap-x-10 md:flex">
           <a href="#about">.about</a>
           <a href="#projects">.projects</a>
           <button
@@ -49,15 +49,14 @@ const NavBar = () => {
           </button>
         </div>
 
-        <div className="flex items-center gap-x-[5vw] md:gap-x-[0.5vw]">
+        <div className="flex items-center justify-end gap-x-[5vw] md:gap-x-[1vw] md:w-44">
           <p>{time.toLocaleTimeString()}</p>
-          <span></span>
           <p>{time.toLocaleDateString()}</p>
         </div>
       </nav>
 
       {menuState && <NavBar_Mobile onClose={() => setMenuState(false)} />}
-      {cardOpen  && <ProfileCard onClose={() => cardOpen(false)} />}
+      {cardOpen && <ProfileCard onClose={() => setCardOpen(false)} />}
     </>
   );
 };

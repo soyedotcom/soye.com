@@ -10,14 +10,14 @@ function App() {
       <Noise />
       {/* <ProfileCard /> */}
 
-      <main className="z-10 max-w-screen flex flex-col items-center mx-4 sm:mx-6">
+      <main className="relative z-10 min-w-0 flex flex-col items-center mx-6 sm:mx-6 md:mx-8 lg:mx-55">
         <NavBar />
 
         <section
           id="home"
-          className="flex flex-col md:min-h-screen min-h-[60svh]"
+          className="flex flex-col w-full min-w-0 md:min-h-screen min-h-[65svh]"
         >
-          <div className="font-lora mt-auto text-[clamp(1rem,3vw,4rem)] leading-normal">
+          <div className="font-lora mt-auto text-[clamp(1rem,3vw,2.5rem)] leading-normal">
             <p>I am Soye Usoroh,</p>
             <p>
               a <span className="italic">digital polymath</span> and{" "}
@@ -25,10 +25,11 @@ function App() {
             </p>
           </div>
 
-          <figure>
+          <figure className="w-full">
             <img
               src="maintag_homepage_noversion.png"
               alt="soyedotcom_maintag"
+              className="block h-auto w-full"
             />
           </figure>
         </section>
