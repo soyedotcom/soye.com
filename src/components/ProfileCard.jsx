@@ -5,7 +5,7 @@ const ProfileCard = ({ onClose }) => {
         onClick={onClose}
         className="fixed z-200 flex justify-center items-center h-screen w-screen inset-0 bg-[#1c1c1cf6] px-9"
       >
-        <section className="bg-[#F4F4F4] w-full max-w-160 h-100 rounded-2xl text-black text-center px-7 sm:px-9 md:px-11 lg:px-14">
+        <section className="bg-[#F4F4F4] w-full max-w-160 h-100 rounded-2xl text-black text-center justify-center items-center px-7 sm:px-9 md:px-11 lg:px-14">
           <header>
             <h1 className="font-shadow text-[clamp(2.5rem,7vw,5.5rem)]">
               Soye Usoroh
@@ -17,15 +17,11 @@ const ProfileCard = ({ onClose }) => {
 
           <article>
             <p className="my-7 text-[clamp(0.8rem,1.2vw,1rem)] leading-relaxed text-left font-solid font-light">
-              I'm a computer engineering graduate with a curiosity for how
-              things work, how they're built and how they can be made better. I
-              explore the intersections of software, hardware, electronics and
-              thoughtful design, creating everything from web applications and
-              games to embedded systems and interactive 3D experiences.
+              A computer grad with a love for understanding how things are made are building them. 
             </p>
           </article>
 
-          <section className="flex flex-row text-[clamp(0.8rem,1.2vw,1rem)] font-solid font-light justify-center gap-x-[3vw] sm:gap-x-10 mb-3 sm:mb-5 md:mb-7 lg:mb-10">
+          <section className="flex flex-row text-[clamp(0.8rem,1.2vw,1rem)] font-solid justify-center gap-x-[3vw] mt-auto sm:gap-x-10 mb-3 sm:mb-5 md:mb-7 lg:mb-10">
             <a
               className="hover:underline"
               target="_blank"
