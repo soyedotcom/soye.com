@@ -8,7 +8,6 @@ function App() {
     <>
       <Grid />
       <Noise />
-      {/* <ProfileCard /> */}
 
       <main className="relative z-10 min-w-0 flex flex-col items-center mx-6 sm:mx-6 md:mx-8 lg:mx-55">
         <NavBar />
@@ -32,6 +31,13 @@ function App() {
               className="block h-auto w-full"
             />
           </figure>
+        </section>
+
+        <section
+          id="projects"
+          className="flex flex-col w-full min-w-0"
+        >
+          projects
         </section>
       </main>
     </>
