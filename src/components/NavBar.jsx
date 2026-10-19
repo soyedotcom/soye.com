@@ -39,8 +39,10 @@ const NavBar = () => {
         </div>
 
         <div className="hidden justify-center items-center gap-x-[3vw] sm:gap-x-10 md:flex">
-          <a href="#about">.about</a>
           <a href="#projects">.projects</a>
+
+          <a href="#about">.about</a>
+
           <button
             onClick={() => setCardOpen(true)}
             className="hover:cursor-pointer"

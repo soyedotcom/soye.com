@@ -13,12 +13,14 @@ const NavBar_Mobile = ({ onClose }) => {
           </button>
         </div>
 
-        <a onClick={onClose} href="#about">
-          .about
-        </a>
         <a onClick={onClose} href="#projects">
           .projects
         </a>
+
+        <a onClick={onClose} href="#about">
+          .about
+        </a>
+
         <button
           onClick={() => {
             setCardOpen(true);
