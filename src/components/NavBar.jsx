@@ -51,7 +51,7 @@ const NavBar = () => {
           </button>
         </div>
 
-        <div className="flex items-center justify-end gap-x-[5vw] md:gap-x-[1vw] md:w-44">
+        <div className="flex items-center justify-end gap-x-[5vw] md:gap-x-[1vw] md:w-45">
           <p>{time.toLocaleTimeString()}</p>
           <p>{time.toLocaleDateString()}</p>
         </div>
