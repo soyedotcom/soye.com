@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@layer components {
+  .section {
+    @apply h-full w-screen shrink-0 snap-start px-[2vw] py-[2vh];
+  }
+}
