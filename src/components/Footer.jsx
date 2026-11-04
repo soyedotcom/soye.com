@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <footer className="h-full w-screen shrink-0 snap-start">
+      <footer className="section">
         <h1 className="font-bold text-9xl">FOOTER</h1>
       </footer>
     </>
