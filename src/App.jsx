@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const LOCK_MS = 800;
 const THRESHOLD = 10;
@@ -76,26 +77,28 @@ function App() {
   }, []);
 
   return (
-    <main className="flex flex-col">
+    <main className="flex h-screen flex-col overflow-hidden">
       <NavBar />
       <div
         ref={containerRef}
-        className="flex h-screen w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
+        className="flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
       >
-        <section id="home" className="h-screen w-screen shrink-0 snap-start">
+        <section
+          id="home"
+          className="h-full w-screen shrink-0 snap-start px-[2vw]"
+        >
           <h1 className="font-bold text-9xl">HOME</h1>
         </section>
 
-        <section
-          id="projects"
-          className="h-screen w-screen shrink-0 snap-start"
-        >
+        <section id="projects" className="h-full w-screen shrink-0 snap-start">
           <h1 className="font-bold text-9xl">PROJECTS</h1>
         </section>
 
-        <section id="about" className="h-screen w-screen shrink-0 snap-start">
+        <section id="about" className="h-full w-screen shrink-0 snap-start">
           <h1 className="font-bold text-9xl">ABOUT</h1>
         </section>
+
+        <Footer/>
       </div>
     </main>
   );
