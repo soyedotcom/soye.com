@@ -9,7 +9,7 @@ function App() {
       <Grid />
       <Noise />
 
-      <main className="font-solid relative z-10 min-w-0 flex flex-col items-center mx-6 gap-20 sm:mx-6 md:mx-8 lg:mx-55">
+      <main className="font-solid relative z-10 min-w-0 flex flex-col items-center mx-6 gap-20 scroll-smooth sm:mx-6 md:mx-8 lg:mx-55">
         <NavBar />
 
         <section
