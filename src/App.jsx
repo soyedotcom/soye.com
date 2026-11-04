@@ -81,15 +81,16 @@ function App() {
       <NavBar />
       <div
         ref={containerRef}
-        className="z-20 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
+        className="z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
       >
         <section id="home" className="section">
-          <div className="font-bold flex flex-col gap-3">
-            <p className="text-[#0000006c] text-2xl">hello, my name is</p>
-            <h1 className="text-8xl">Soye Usoroh</h1>
-            <p className="text-2xl text-[#000000b0]">
-              digital polymath and "creative techie"
-            </p>
+          <div className="font-bold">
+            <h1 className="text-[#0000006c] text-7xl w-[60vw]">
+              hello, my name is {""}
+              <h1 className="text-black underline decoration-red-600 decoration-wavy">
+                Soye Usoroh
+              </h1>
+            </h1>
           </div>
         </section>
 

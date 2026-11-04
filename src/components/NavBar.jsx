@@ -8,7 +8,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="relative top-0 left-0 right-0 flex flex-row shrink-0 justify-between align-middle py-[5vh] px-[10vw]">
+      <nav className="relative z-10 top-0 left-0 right-0 flex flex-row shrink-0 justify-between align-middle py-[5vh] px-[10vw]">
         <div className="hidden items-center md:flex">
           <a href="#home">
             <p className="font-bold text-1xl">SOYEDOTCOM</p>
@@ -22,15 +22,15 @@ const NavBar = () => {
         </div>
 
         <div className="hidden justify-center items-center gap-x-[3vw] sm:gap-x-10 md:flex">
-          <a href="#projects">projects</a>
+          <a href="#projects">PROJECTS</a>
 
-          <a href="#about">about</a>
+          <a href="#about">ABOUT</a>
 
           <button
             onClick={() => setCardOpen(true)}
             className="hover:cursor-pointer"
           >
-            contact_me
+            CONTACT_ME
           </button>
         </div>
       </nav>
