@@ -81,24 +81,27 @@ function App() {
       <NavBar />
       <div
         ref={containerRef}
-        className="flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
+        className="z-20 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
       >
-        <section
-          id="home"
-          className="h-full w-screen shrink-0 snap-start px-[2vw]"
-        >
-          <h1 className="font-bold text-9xl">HOME</h1>
+        <section id="home" className="section">
+          <div className="font-bold flex flex-col gap-3">
+            <p className="text-[#0000006c] text-2xl">hello, my name is</p>
+            <h1 className="text-8xl">Soye Usoroh</h1>
+            <p className="text-2xl text-[#000000b0]">
+              digital polymath and "creative techie"
+            </p>
+          </div>
         </section>
 
-        <section id="projects" className="h-full w-screen shrink-0 snap-start">
-          <h1 className="font-bold text-9xl">PROJECTS</h1>
+        <section id="projects" className="section">
+          <h1 className="font-bold text-[#0000006c] text-2xl">PROJECTS</h1>
         </section>
 
-        <section id="about" className="h-full w-screen shrink-0 snap-start">
-          <h1 className="font-bold text-9xl">ABOUT</h1>
+        <section id="about" className="section">
+          <h1 className="font-bold text-[#0000006c] text-2xl">ABOUT</h1>
         </section>
 
-        <Footer/>
+        <Footer />
       </div>
     </main>
   );
