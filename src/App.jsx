@@ -77,12 +77,14 @@ function App() {
   }, []);
 
   return (
-    <main className="flex h-screen flex-col overflow-hidden">
-      <NavBar />
+    <main className="relative flex flex-col h-screen overflow-hidden">
+      <div className="z-20 absolute top-0 left-0 right-0">
+        <NavBar />
+      </div>
 
       <div
         ref={containerRef}
-        className="z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
+        className="relative z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none scroll-smooth"
       >
         <section id="home" className="section">
           <p className="font-bold">Home</p>
