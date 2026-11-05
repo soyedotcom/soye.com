@@ -87,7 +87,7 @@ function App() {
         className="relative z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none scroll-smooth"
       >
         <section id="home" className="section">
-          <p className="font-bold">Home</p>
+          <p className="font-bold">Home | This is where it starts</p>
 
           <div className="font-bold">
             <h1 className="text-[#0000006c] text-2xl">
@@ -101,19 +101,20 @@ function App() {
         </section>
 
         <section id="projects" className="section">
-          <p className="font-bold ">Projects</p>
+          <p className="font-bold ">
+            Projects | *sigh* so much to do and yet so little time
+          </p>
 
           <h1 className="font-bold text-[#0000006c] text-2xl">
             I'm always working on something new. I enjoy creating things and
-            finding ways to bring my ideas to life with art and coding.
-            <br />I dabble in everything from fullstack web development to
-            mobile and desktop applications, games, embedded systems and even 3D
-            modelling and arts and crafts.
+            finding ways to bring my ideas to life with art and coding. I dabble
+            in everything from fullstack web development to mobile and desktop
+            applications, games, embedded systems and even 3D modelling.
           </h1>
         </section>
 
         <section id="about" className="section">
-          <p className="font-bold">About</p>
+          <p className="font-bold">About | why I do what I do</p>
           <h1 className="font-bold text-[#0000006c] text-2xl">
             whoami? well I'm{" "}
             <span className="underline decoration-red-400 decoration-wavy">
