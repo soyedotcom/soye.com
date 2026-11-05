@@ -3,6 +3,9 @@ import { useEffect, useRef } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import About from "./components/About";
 
 const LOCK_MS = 800;
 const THRESHOLD = 10;
@@ -86,43 +89,9 @@ function App() {
         ref={containerRef}
         className="relative z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none scroll-smooth"
       >
-        <section id="home" className="section">
-          <p className="font-bold">Home | this is where it starts</p>
-
-          <div className="font-bold">
-            <h1 className="text-[#0000006c] text-2xl">
-              hello, my name is
-              <br />
-              <span className="text-black text-8xl underline decoration-red-500 decoration-wavy">
-                Soye Usoroh
-              </span>
-            </h1>
-          </div>
-        </section>
-
-        <section id="projects" className="section">
-          <p className="font-bold ">
-            Projects | *sigh* so much to do and yet so little time
-          </p>
-
-          <h1 className="font-bold text-[#0000006c] text-2xl">
-            I'm always working on something new. I enjoy creating things and
-            finding ways to bring my ideas to life with art and coding. I dabble
-            in everything from fullstack web development to mobile and desktop
-            applications, games, embedded systems and even 3D modelling.
-          </h1>
-        </section>
-
-        <section id="about" className="section">
-          <p className="font-bold">About | what I do and why I do what I do</p>
-          <h1 className="font-bold text-[#0000006c] text-2xl">
-            whoami? well I'm{" "}
-            <span className="underline decoration-red-400 decoration-wavy">
-              Soye
-            </span>{" "}
-            of course. Who else would I possibly be? ( ͡° ͜ʖ ͡°)
-          </h1>
-        </section>
+        <Home />
+        <Projects />
+        <About />
 
         <Footer />
       </div>
