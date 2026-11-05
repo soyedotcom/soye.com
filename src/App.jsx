@@ -87,7 +87,7 @@ function App() {
         className="relative z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none scroll-smooth"
       >
         <section id="home" className="section">
-          <p className="font-bold">Home | This is where it starts</p>
+          <p className="font-bold">Home | this is where it starts</p>
 
           <div className="font-bold">
             <h1 className="text-[#0000006c] text-2xl">
@@ -114,7 +114,7 @@ function App() {
         </section>
 
         <section id="about" className="section">
-          <p className="font-bold">About | why I do what I do</p>
+          <p className="font-bold">About | what I do and why I do what I do</p>
           <h1 className="font-bold text-[#0000006c] text-2xl">
             whoami? well I'm{" "}
             <span className="underline decoration-red-400 decoration-wavy">
