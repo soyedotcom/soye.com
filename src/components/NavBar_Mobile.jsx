@@ -8,7 +8,7 @@ const NavBar_Mobile = ({ onClose }) => {
 
   return (
     <>
-      <nav className="bg-[#ffffff] fixed z-100 inset-0 flex flex-col justify-center items-start gap-[5vh] font-bold text-xl px-10">
+      <nav className="bg-white/10 backdrop-blur-2xl fixed z-100 inset-0 flex flex-col justify-center items-start gap-[5vh] font-bold text-xl px-10">
         <div className="flex">
           <button onClick={onClose}>
             <CloseIcon />
