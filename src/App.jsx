@@ -83,23 +83,43 @@ function App() {
         ref={containerRef}
         className="z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
       >
-        <section id="home" className="section">
+        <section id="home" className="section gap-8">
           <div className="font-bold">
-            <h1 className="text-[#0000006c] text-7xl w-[60vw]">
-              hello, my name is {""}
-              <h1 className="text-black underline decoration-red-600 decoration-wavy">
+            <h1 className="text-[#0000006c] text-7xl">
+              hello, my name is
+              <br />
+              <span className="text-black underline decoration-red-500 decoration-wavy">
                 Soye Usoroh
-              </h1>
+              </span>
             </h1>
           </div>
         </section>
 
         <section id="projects" className="section">
-          <h1 className="font-bold text-[#0000006c] text-2xl">PROJECTS</h1>
+          <h1 className="font-bold text-[#0000006c] text-2xl">
+            I'm always working on something new. I enjoy creating things and
+            finding ways to bring my ideas to life with art and coding.
+          </h1>
+
+          <h2 className="text-2xl font-bold text-[#0000006c]">
+            I dabble in everything from fullstack web development to mobile and
+            desktop applications, games and embedded systems and even 3D
+            modelling and arts and crafts.
+          </h2>
         </section>
 
         <section id="about" className="section">
-          <h1 className="font-bold text-[#0000006c] text-2xl">ABOUT</h1>
+          <h1 className="font-bold text-[#0000006c] text-2xl">
+            whoami? well I'm{" "}
+            <span className="underline decoration-red-400 decoration-wavy">
+              Soye
+            </span>{" "}
+            of course. Who else would I possibly be? ( ͡° ͜ʖ ͡°)
+          </h1>
+
+          <h2 className="text-2xl font-bold text-[#0000006c]">
+            Welcome to my digital playground, feel free to explore.
+          </h2>
         </section>
 
         <Footer />
