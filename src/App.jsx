@@ -79,16 +79,19 @@ function App() {
   return (
     <main className="flex h-screen flex-col overflow-hidden">
       <NavBar />
+
       <div
         ref={containerRef}
         className="z-10 flex flex-1 min-h-0 w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory scrollbar-none"
       >
-        <section id="home" className="section gap-8">
+        <section id="home" className="section">
+          <p className="font-bold">Home</p>
+
           <div className="font-bold">
-            <h1 className="text-[#0000006c] text-7xl">
+            <h1 className="text-[#0000006c] text-2xl">
               hello, my name is
               <br />
-              <span className="text-black underline decoration-red-500 decoration-wavy">
+              <span className="text-black text-8xl underline decoration-red-500 decoration-wavy">
                 Soye Usoroh
               </span>
             </h1>
@@ -96,19 +99,19 @@ function App() {
         </section>
 
         <section id="projects" className="section">
+          <p className="font-bold ">Projects</p>
+
           <h1 className="font-bold text-[#0000006c] text-2xl">
             I'm always working on something new. I enjoy creating things and
             finding ways to bring my ideas to life with art and coding.
-          </h1>
-
-          <h2 className="text-2xl font-bold text-[#0000006c]">
-            I dabble in everything from fullstack web development to mobile and
-            desktop applications, games and embedded systems and even 3D
+            <br />I dabble in everything from fullstack web development to
+            mobile and desktop applications, games, embedded systems and even 3D
             modelling and arts and crafts.
-          </h2>
+          </h1>
         </section>
 
         <section id="about" className="section">
+          <p className="font-bold">About</p>
           <h1 className="font-bold text-[#0000006c] text-2xl">
             whoami? well I'm{" "}
             <span className="underline decoration-red-400 decoration-wavy">
@@ -116,10 +119,6 @@ function App() {
             </span>{" "}
             of course. Who else would I possibly be? ( ͡° ͜ʖ ͡°)
           </h1>
-
-          <h2 className="text-2xl font-bold text-[#0000006c]">
-            Welcome to my digital playground, feel free to explore.
-          </h2>
         </section>
 
         <Footer />
