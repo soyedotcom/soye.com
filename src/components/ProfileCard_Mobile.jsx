@@ -28,7 +28,7 @@ const ProfileCard_Mobile = ({ onClose }) => {
               <p className="mt-auto py-[0.5vh]">Soye Usoroh</p>
             </div>
 
-            <div className="flex flex-col text-[clamp(0.8rem,1.2vw,1rem)]">
+            <div className="flex flex-col text-[clamp(0.8rem,1.2vw,1rem)] gap-1.5">
               <a
                 className="hover:underline"
                 target="_blank"
