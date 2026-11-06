@@ -3,63 +3,67 @@ const ProfileCard = ({ onClose }) => {
     <>
       <main
         onClick={onClose}
-        className="fixed z-200 flex justify-center items-center h-screen w-screen inset-0 bg-[#1c1c1cf6]"
+        className="z-200 bg-black/80 fixed inset-0 flex justify-center items-center font-bold text-xl"
       >
-        <section className="bg-[#F4F4F4] w-full max-w-160 h-100 rounded-2xl text-center justify-center items-center px-10*">
-          <div>
+        <section className="bg-white rounded-md flex flex-col gap-5 px-10 py-10 w-[75vw] max-w-150 max-h-95 shadow-lg">
+          <section className="flex flex-row justify-between align-middle items-end">
             <header>
-              <h1 className="font-bold text-[clamp(2.5rem,6vw,4.5rem)]">
-                Soye Usoroh
+              <h1 className="text-[clamp(2.5rem,6vw,4.7rem)] leading-19">
+                SOYE
+                <br />
+                DOTCOM
+                <br />
               </h1>
-              <p className="font-bold text-[clamp(0.9rem,1.5vw,1.125rem)] text-[#000000b5]">
-                A design engineer and digital polymath
-              </p>
             </header>
 
-            <div className="flex flex-col h-full">
-              <article>
-                <p className="my-7 text-[clamp(0.8rem,1.2vw,1rem)]">
-                  A computer engineering graduate with a love for understanding
-                  how things are made using programming and creating them.
-                </p>
-              </article>
+            <img src="qrcode.svg" alt="site_qr" className="w-[11vw]" />
+          </section>
 
-              <section className="flex flex-row text-[clamp(0.8rem,1.2vw,1rem)] font-bold justify-center gap-x-[3vw] mt-auto sm:gap-x-10">
-                <a
-                  className="hover:underline"
-                  target="_blank"
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=usorohsoye@gmail.com"
-                >
-                  Email
-                </a>
+          <section className="flex flex-row justify-between align-middle items-end">
+            <div>
+              <p className="mt-auto py-[0.5vh]">Soye Usoroh</p>
 
-                <a
-                  className="hover:underline"
-                  target="_blank"
-                  href="https://github.com/soyedotcom"
-                >
-                  Github
-                </a>
-
-                <a
-                  className="hover:underline"
-                  target="_blank"
-                  href="https://www.linkedin.com/in/soye-usoroh"
-                >
-                  LinkedIn
-                </a>
-
-                <a
-                  className="hover:underline"
-                  target="_blank"
-                  rel="noopener"
-                  href="Soye_Usoroh_Resume.pdf"
-                >
-                  Resume
-                </a>
-              </section>
+              <p className="text-[clamp(0.8rem,1.2vw,1rem)] font-normal w-80">
+                computer engineering grad @ covenant university and digital
+                polymath.
+              </p>
             </div>
-          </div>
+
+            <div className="flex flex-col gap-[1vh] text-right text-[clamp(0.8rem,1.2vw,1rem)] mt-auto">
+              <a
+                className="hover:underline"
+                target="_blank"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=usorohsoye@gmail.com"
+              >
+                Email
+              </a>
+
+              <a
+                className="hover:underline"
+                target="_blank"
+                href="https://github.com/soyedotcom"
+              >
+                Github
+              </a>
+
+              <a
+                className="hover:underline"
+                target="_blank"
+                href="https://www.linkedin.com/in/soye-usoroh"
+              >
+                LinkedIn
+              </a>
+
+              <a
+                className="hover:underline"
+                target="_blank"
+                rel="noopener"
+                href="Soye_Usoroh_Resume.pdf"
+              >
+                View Resume
+              </a>
+            </div>
+          </section>
         </section>
       </main>
     </>

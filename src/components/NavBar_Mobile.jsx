@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import ProfileCard from "./ProfileCard";
+import ProfileCard_Mobile from "./ProfileCard_Mobile";
 import CloseIcon from "./CloseIcon";
 
 const NavBar_Mobile = ({ onClose }) => {
@@ -10,7 +10,7 @@ const NavBar_Mobile = ({ onClose }) => {
     <>
       <nav className="bg-white/10 backdrop-blur-2xl fixed z-100 inset-0 flex flex-col justify-center items-start gap-[5vh] font-bold text-xl px-10">
         <div className="flex">
-          <button onClick={onClose}>
+          <button onClick={onClose} className="hover:cursor-pointer hover:animate-spin">
             <CloseIcon />
           </button>
         </div>
@@ -31,12 +31,13 @@ const NavBar_Mobile = ({ onClose }) => {
           onClick={() => {
             setCardOpen(true);
           }}
+          className="hover:cursor-pointer"
         >
           CONTACT_ME
         </button>
       </nav>
 
-      {cardOpen && <ProfileCard onClose={() => setCardOpen(false)} />}
+      {cardOpen && <ProfileCard_Mobile onClose={() => setCardOpen(false)} />}
     </>
   );
 };
