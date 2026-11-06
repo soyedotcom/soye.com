@@ -6,7 +6,7 @@ const ProfileCard = ({ onClose }) => {
         className="z-200 bg-black/80 fixed inset-0 flex justify-center items-center font-bold text-xl"
       >
         <section className="bg-white rounded-md flex flex-col gap-5 px-10 py-10 w-[75vw] max-w-150 max-h-95 shadow-lg">
-          <section className="flex flex-row justify-between align-middle items-end">
+          <section className="flex flex-row justify-between align-middle items-start">
             <header>
               <h1 className="text-[clamp(2.5rem,6vw,4.7rem)] leading-19">
                 SOYE
