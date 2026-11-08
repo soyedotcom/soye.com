@@ -15,7 +15,7 @@ const Projects = () => {
           applications, games, embedded systems and even 3D modelling.
         </h1>
 
-        <section className="flex flex-col h-full gap-[3vh] mt-[5vh] lg:flex-row lg:justify-center lg:gap-[5vw]">
+        <section className="flex flex-col h-full gap-[3vh] mt-[5vh] md:flex-row md:justify-center md:gap-[5vw]">
           <ProjectFolder bg="red" folderName="Software Development" />
 
           <ProjectFolder bg="blue" folderName="Embedded Systems" />
