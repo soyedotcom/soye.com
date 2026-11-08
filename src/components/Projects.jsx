@@ -1,3 +1,5 @@
+import ProjectFolder from "./ProjectFolder";
+
 const Projects = () => {
   return (
     <>
@@ -12,6 +14,14 @@ const Projects = () => {
           in everything from fullstack web development to mobile and desktop
           applications, games, embedded systems and even 3D modelling.
         </h1>
+
+        <section className="flex justify-center m-10 h-full gap-[5vw]">
+          <ProjectFolder bg="red" folderName="Software Dev." />
+
+          <ProjectFolder bg="blue" folderName="Embedded Systems" />
+
+          <ProjectFolder bg="green" folderName="3D Moddelling" />
+        </section>
       </section>
     </>
   );
