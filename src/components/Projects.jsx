@@ -15,12 +15,12 @@ const Projects = () => {
           applications, games, embedded systems and even 3D modelling.
         </h1>
 
-        <section className="flex justify-center m-10 h-full gap-[5vw]">
-          <ProjectFolder bg="red" folderName="Software Dev." />
+        <section className="flex flex-col h-full gap-[3vh] mt-[5vh] lg:flex-row lg:justify-center lg:gap-[5vw]">
+          <ProjectFolder bg="red" folderName="Software Development" />
 
           <ProjectFolder bg="blue" folderName="Embedded Systems" />
 
-          <ProjectFolder bg="green" folderName="3D Moddelling" />
+          <ProjectFolder bg="green" folderName="3D Modelling" />
         </section>
       </section>
     </>
